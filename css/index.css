@@ -165,7 +165,7 @@ footer {
 }
 
 /*    tablet version    */
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     body {
 		width: 800px;
 	}
@@ -238,6 +238,20 @@ footer {
 }
 
 /*   mobile version     */
-@media (min-width: 500px) {
+@media (max-width: 500px) {
+    body {
+		width: 500px;
+    }
+    
+    .container {
+		width: 500px;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+
+	}
 
 }
